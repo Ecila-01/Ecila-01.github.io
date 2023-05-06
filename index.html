@@ -44,6 +44,104 @@
             <br> <br> 
             To nagivate through the site, just pick a category in the top navigation bar and hover your mouse to the photos to check their details</h2>
             <p></p>
+            <div class="button" id ="signup"><a href="#regform"> Register Here </a></div>
+            <div class="button" id ="loginbutton"><a href="#login"> Login Here </a></div>
         </div>
+        <!--Register Form Inside modal box-->
+        <div id="regform" class="overlay">
+            <div class="popup" id="register">
+                    <a class="close" href="#">&times;</a>
+                    <div class="registration">
+                        <h2 class="form-title">Registration</h1>
+                        <form action="#">
+                            <div class="main-user-info">
+                            <div class="user-input-box">
+                                <label for="fullName">Full Name</label>
+                                <input type="text"
+                                        id="fullName"
+                                        name="fullName"
+                                        placeholder="Enter Full Name"/>
+                            </div>
+                            <div class="user-input-box">
+                                <label for="username">Username</label>
+                                <input type="text"
+                                        id="username"
+                                        name="username"
+                                        placeholder="Enter Username"/>
+                            </div>
+                            <div class="user-input-box">
+                                <label for="email">Email</label>
+                                <input type="email"
+                                        id="email"
+                                        name="email"
+                                        placeholder="Enter Email"/>
+                            </div>
+                            <div class="user-input-box">
+                                <label for="password">Password</label>
+                                <input type="password"
+                                        id="password"
+                                        name="password"
+                                        placeholder="Enter Password"/>
+                            </div>
+                            <div class="user-input-box">
+                                <label for="confirmPassword">Confirm Password</label>
+                                <input type="password"
+                                        id="confirmPassword"
+                                        name="confirmPassword"
+                                        placeholder="Confirm Password"/>
+                            </div>
+                            </div>
+                            <div class="gender-details-box">
+                            <span class="gender-title">Gender</span>
+                            <div class="gender-category">
+                                <input type="radio" name="gender" id="male">
+                                <label for="male">Male</label>
+                                <input type="radio" name="gender" id="female">
+                                <label for="female">Female</label>
+                                <input type="radio" name="gender" id="other">
+                                <label for="other">Other</label>
+                            </div>
+                            </div>
+                            <div class="newspaper">
+                            <input type="checkbox" id="y/n" name="y/n" value="Yes">
+                            <label for="y/n"> Sign up for newspaper</label><br>
+                            </div>
+                            <div class="form-submit-btn">
+                            <input type="submit" value="Register">
+                            </div>
+                        </form>
+                    </div> 
+            </div>
+        </div>
+        <div id="login" class="overlay">
+            <div class="popup" id="register">
+                <a class="close" href="#">&times;</a>
+                <div class="registration">
+                    <h2 class="form-title">Registration</h1>
+                    <form action="#">
+                        <div class="main-user-info">
+                        <div class="user-input-box">
+                            <label for="email">Email</label>
+                            <input type="email"
+                                    id="email"
+                                    name="email"
+                                    placeholder="Enter Email"/>
+                        </div><br><br>
+                        <div class="user-input-box">
+                            <label for="password">Password</label>
+                            <input type="password"
+                                    id="password"
+                                    name="password"
+                                    placeholder="Enter Password"/>
+                        </div>
+                        </div>
+                        <div class="form-submit-btn">
+                        <input type="submit" value="Login">
+                        </div>
+                    </form>
+                </div> 
+        </div>
+        </div>
+
     </body>
 </html>
