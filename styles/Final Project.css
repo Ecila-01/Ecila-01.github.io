@@ -141,13 +141,14 @@ body{
 .navbar {
     background-color: #DDDDDD;
     width: 90%;
-    margin: 0 auto 20px auto;
+    margin: 0 auto;
     height: 60px;
     display: flex;
     border-radius: 5px;
     box-shadow: 3px 3px 5px #D3D3D3;
     overflow: hidden;
     z-index: 2;
+    max-width: 2000px;
   }
   
   .navbar a {
@@ -420,17 +421,18 @@ h1::before{
     position: absolute;
     width: 100%;
     height: 100%;
-    object-fit: cover cover;
+    object-fit: cover;
     z-index: -1;
-    margin-left: -10px;
-    margin-top: -17px;
     opacity: 0.7;
+    max-width: 1718px;
+    margin-inline: auto ;
+    margin-left: 94px;
   }
   
   .homebackground {
     position: relative;
     height: 100vh; 
-    
+    margin-inline: auto;
   }
 
 .hometext {
