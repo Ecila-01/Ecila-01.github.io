@@ -19,7 +19,7 @@
                                 </button>
                                 <div class="dropdown-content">
                                   <a href = "pages/Anime.html"> Anime </a>
-                                  <a href = "pages/Manga.html"> Manga</a>
+                                  <a href = "pages/Manga.html"> Manga </a>
                                   <a href = "pages/Light Novels.html"> Light Novels </a>
                                   <a href = "pages/Visual Novels.html"> Visual Novels </a>
                                 </div> 
@@ -49,96 +49,66 @@
         <div id="regform" class="overlay">
             <div class="popup" id="register">
                     <a class="close" href="#">&times;</a>
-                    <div class="registration">
-                        <h2 class="form-title">Registration</h1>
+                    <div class="contactLeft" id="regModal">
+                        <h3> Register Here: </h3>
                         <form action="#">
-                            <div class="main-user-info">
-                            <div class="user-input-box">
-                                <label for="fullName">Full Name</label>
-                                <input type="text"
-                                        id="fullName"
-                                        name="fullName"
-                                        placeholder="Enter Full Name"/>
+                            <div class="input-row" id = "reg-input-row">
+                                    <div class="input-group" id ="reg-input-group">
+                                            <label>Username</label>
+                                            <input type="text">
+                                    </div>
+                                    <div class="input-group" id ="reg-input-group">
+                                            <label>Phone</label>
+                                            <input type="text" >
+                                    </div>
                             </div>
-                            <div class="user-input-box">
-                                <label for="username">Username</label>
-                                <input type="text"
-                                        id="username"
-                                        name="username"
-                                        placeholder="Enter Username"/>
+                            <div class="input-row" id = "reg-input-row" >
+                                    <div class="input-group" id ="reg-input-group">
+                                            <label>Email</label>
+                                            <input type="email">
+                                    </div>
+                                    <div class="input-group" id ="reg-input-group">
+                                            <label>Password</label>
+                                            <input type="password">
+                                    </div>
                             </div>
-                            <div class="user-input-box">
-                                <label for="email">Email</label>
-                                <input type="email"
-                                        id="email"
-                                        name="email"
-                                        placeholder="Enter Email"/>
+                            <div class="pronouns">
+                                <input type="radio" name="gender" id="he">
+                                <label for="he">He/Him</label>
+                                <input type="radio" name="gender" id="she">
+                                <label for="she">She/Her</label>
+                                <input type="radio" name="gender" id="they">
+                                <label for="they">They/Them</label>      
                             </div>
-                            <div class="user-input-box">
-                                <label for="password">Password</label>
-                                <input type="password"
-                                        id="password"
-                                        name="password"
-                                        placeholder="Enter Password"/>
+                            <div type = "newspaper">
+                                <input type="checkbox" id="y/n" name="y/n" value="Yes">
+                                <label for="y/n"> Sign up for newspaper</label>
                             </div>
-                            <div class="user-input-box">
-                                <label for="confirmPassword">Confirm Password</label>
-                                <input type="password"
-                                        id="confirmPassword"
-                                        name="confirmPassword"
-                                        placeholder="Confirm Password"/>
-                            </div>
-                            </div>
-                            <div class="gender-details-box">
-                            <span class="gender-title">Gender</span>
-                            <div class="gender-category">
-                                <input type="radio" name="gender" id="male">
-                                <label for="male">Male</label>
-                                <input type="radio" name="gender" id="female">
-                                <label for="female">Female</label>
-                                <input type="radio" name="gender" id="other">
-                                <label for="other">Other</label>
-                            </div>
-                            </div>
-                            <div class="newspaper">
-                            <input type="checkbox" id="y/n" name="y/n" value="Yes">
-                            <label for="y/n"> Sign up for newspaper</label><br>
-                            </div>
-                            <div class="form-submit-btn">
-                            <input type="submit" value="Register">
-                            </div>
+                            <button type = "submit">Sign Up</button>
                         </form>
-                    </div> 
+                </div>
             </div>
         </div>
         <div id="login" class="overlay">
             <div class="popup" id="register">
                 <a class="close" href="#">&times;</a>
-                <div class="registration">
-                    <h2 class="form-title">Registration</h1>
+                <div class="contactLeft" id="regModal">
+                    <h3> Login Here: </h3>
                     <form action="#">
-                        <div class="main-user-info">
-                        <div class="user-input-box">
-                            <label for="email">Email</label>
-                            <input type="email"
-                                    id="email"
-                                    name="email"
-                                    placeholder="Enter Email"/>
-                        </div><br><br>
-                        <div class="user-input-box">
-                            <label for="password">Password</label>
-                            <input type="password"
-                                    id="password"
-                                    name="password"
-                                    placeholder="Enter Password"/>
+                        <div class="input-row" id = "reg-input-row" >
+                                <div class="input-group" id ="reg-input-group">
+                                        <label>Email</label>
+                                        <input type="email">
+                                </div>
+                                <div class="input-group" id ="reg-input-group">
+                                        <label>Password</label>
+                                        <input type="password">
+                                </div>
                         </div>
-                        </div>
-                        <div class="form-submit-btn">
-                        <input type="submit" value="Login">
-                        </div>
+                        <button type = "submit">Login</button>
                     </form>
-                </div> 
-        </div>
+            </div>
+            </div>
         </div>
 
     </body>
