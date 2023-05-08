@@ -149,9 +149,9 @@ body{
     overflow: hidden;
     z-index: 2;
     max-width: 2000px;
-  }
+}
   
-  .navbar a {
+.navbar a {
     background-color: #DDDDDD;
     float: left;
     font-size: 16px;
@@ -160,15 +160,15 @@ body{
     padding: 22px 50px;
     text-decoration: none;
     z-index: 2;
-  }
+}
   
-  .dropdown {
+.dropdown {
     float: left;
     overflow: hidden;
     z-index: 2;
-  }
+}
   
-  .dropdown .dropbtn {
+.dropdown .dropbtn {
     background-color: #DDDDDD;
     font-size: 16px;  
     border: none;
@@ -178,23 +178,23 @@ body{
     font-family: inherit;
     margin: 0;
     z-index: 2;
-  }
+}
   
-  .navbar a:hover, .dropdown:hover .dropbtn {
+.navbar a:hover, .dropdown:hover .dropbtn {
     background-color: white;
     z-index: 2;
-  }
+}
   
-  .dropdown-content {
+.dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 3;
-  }
+}
   
-  .dropdown-content a {
+.dropdown-content a {
     float: none;
     color: black;
     padding: 22px 41px;
@@ -202,15 +202,15 @@ body{
     display: block;
     text-align: left;
     
-  }
+}
   
-  .dropdown-content a:hover {
+.dropdown-content a:hover {
     background-color: white;
-  }
+}
   
-  .dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content {
     display: block;
-  }
+}
 .container {
     width: 100%;
     text-align: center;
@@ -703,3 +703,33 @@ h1::before{
     font-weight: bolder;
 }
 /*References*/
+.reference{
+    color: white;
+    display: flex;
+    font-size: larger;
+}
+.reference ul{
+    list-style: none;  
+}
+.reference li{
+    padding: 10px 60px;
+    margin-right: 100px;
+}
+.reference a{
+    text-decoration: none;
+    color: white;
+}
+.thanks{
+    display: flex;
+    flex-direction: column;
+}
+.thanks img{
+    width: 300px;
+    height: 170px;
+    position: static;
+    margin-inline: auto;
+    object-fit: cover;
+    opacity: .8;
+    border-radius: 10px;
+}
+
